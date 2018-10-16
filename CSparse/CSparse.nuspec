@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CSparse.SilverHorn</id>
+    <version>3.1.3</version>
+    <title>CSparse</title>
+    <authors>SilverHorn</authors>
+    <owners>SilverHorn</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is fork of CSparse. CSparse is a Concise Sparse Matrix package.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>CSparse C++ native</tags>
+  </metadata>
+  <files>
+    <file src="..\v141\Win32\Debug\CSparse.lib" target="lib\native\v141\Win32\Debug"/>
+    <file src="..\v141\Win32\Debug\CSparse.pdb" target="lib\native\v141\Win32\Debug"/>
+    <file src="..\v141\Win32\Release\CSparse.lib" target="lib\native\v141\Win32\Release"/>
+
+    <file src="..\v141\x64\Debug\CSparse.lib" target="lib\native\v141\x64\Debug"/>
+    <file src="..\v141\x64\Debug\CSparse.pdb" target="lib\native\v141\x64\Debug"/>
+    <file src="..\v141\x64\Release\CSparse.lib" target="lib\native\v141\x64\Release"/>
+
+    <file src="cs.h" target="build\native\include\"/>
+
+    <!-- .targets -->
+    <file src="CSparse.SilverHorn.targets" target="build\"/>
+  </files>
+</package>
